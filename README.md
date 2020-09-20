@@ -31,7 +31,7 @@ Um cadastro básico feito em javascript
 
  ### Mobile
 
- 
+
 
 
 
@@ -83,7 +83,7 @@ Fontes:
    - Register background.jpg https://pixabay.com/pt/photos/livros-antigos-livro-antigo-436498/
 
 
- ### Todas as imagens listadas possuem licença gratuita para uso comercial ou não
+ ### As imagens listadas  acima possuem licença gratuita para uso comercial ou não
 
 
 ### Logo
