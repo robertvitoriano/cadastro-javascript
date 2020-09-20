@@ -152,7 +152,7 @@ display: none;
     display: flex;
     flex-direction: column;
     position: relative;
-    top:0px;
+    top:-60px;
 
   }
 
@@ -172,10 +172,32 @@ display: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 65px;
+    margin-top: 85px;
   }
   input[type="text"] {
     font-size: 10px;
     outline: none;
+  }
+
+  .error-modal {
+    bottom: 160px;
+    width:350px;
+    height:300px;
+  }
+
+  .error-modal button {
+    outline: none;
+    font-size: 26px;
+    padding: 30px 60px;
+    border-radius: 56px;
+  }
+  .error-modal span:after {
+    content: "";
+    background-color: black;
+    width: 150px;
+    height: 3px;
+    position: absolute;
+    bottom: 180px;
+    left: 100px;
   }
 }
