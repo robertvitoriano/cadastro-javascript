@@ -157,9 +157,59 @@ label::after {
   
   
 
+}
+
+
+@media (max-width: 900px) {
+  .presentation{
+display: none;
+
+}
+
+  .home-grid {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    column-gap: 20px;
+    position: relative;
+    top:80px;
+  }
+  .home-field {
+    background-color: aliceblue;
+    width: 350px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    border-radius: 25px;
+  }
+  .field-title{
+    position: absolute;
+    left: 30px;
+    font-size: 15px;
+  }
+  .field-value{
+    position: absolute;
+    left:30px;
+    font-size:15px;
+  }
+
+  label::before {
+    width: 32px;
+    height: 32px;
+    left: -30px;
+    top: -8px;
+ 
+  }
 
   
-
-  
+  label::after {
+    width: 24px;
+    height: 24px;
+    left: -28px;
+    top: -6px;
+  }
 
 }
