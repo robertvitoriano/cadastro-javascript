@@ -4,6 +4,7 @@ Um cadastro básico feito em javascript
 # Projeto em execução
 
 <img src="read-me-assets/execucao.gif" /> 
+
 ### Desenvolvimento
 
 ## Linhagens
