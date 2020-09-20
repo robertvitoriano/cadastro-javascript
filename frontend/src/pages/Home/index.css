@@ -158,7 +158,13 @@ label::after {
     position: relative;
     border-radius: 50px;
   }
-  
+  .end-container img{
+    width:160px;
+    position: relative;
+    left: 45px;
+    margin-bottom: 25px;
+
+ }
   
 
 }
@@ -227,7 +233,7 @@ display: none;
    .end-container img{
      width:120px;
      position: absolute;
-     right:180px;
+     left:120px;
      top:160px;
 
   }
