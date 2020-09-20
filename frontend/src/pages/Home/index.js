@@ -178,7 +178,7 @@ const Home = ({ match, history }) => {
           </button>
         </div>
       ) : (
-        <div>
+        <div className="end-container">
           <img src={logoHelpper} />
           <h1
             style={{

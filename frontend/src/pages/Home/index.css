@@ -212,4 +212,19 @@ display: none;
     top: -6px;
   }
 
+   .end-container img{
+     width:120px;
+     position: absolute;
+     right:120px;
+     top:160px;
+
+  }
+  .end-message{
+    position: relative;
+    top:140px;
+
+
+
+ }
+
 }
