@@ -1,0 +1,198 @@
+.register-container {
+  background-image: url("../../assets/Register\ background.jpg");
+  background-size: cover; 
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.title-message{
+ font-size:66px;
+ color:white;
+ position: relative;
+ top:-45px;
+ 
+}
+.title-message:after{
+content: "";
+width:180px;
+height:10px;
+background-color: aliceblue;
+position: absolute;
+bottom:-15px;
+right:250px;
+border-radius: 15px;
+
+}
+.register-form{
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 20px;
+  column-gap: 20px;
+  position: relative;
+  bottom:90px;
+
+}
+
+.register-input{
+    width:540px;
+    height:90px;
+    text-align: center;
+    border-radius: 42px;
+}
+input[type="text"] {
+  font-size: 30px;
+   outline: none;
+}
+
+.register-button{
+    position: absolute;
+    top:560px;
+    left:420px;
+    outline: none;
+    font-size: 36px;
+    padding:30px 60px;
+    border-radius: 56px;
+}
+
+.error-modal{
+  background-color: aliceblue;
+  width:600px;
+  height:400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 46px;
+  position: absolute;
+  bottom:300px;
+  border-radius: 100px;
+  border: solid 4px black;
+  
+}
+.error-modal{
+ color: black;
+}
+.error-modal span:after{
+ content:'';
+ background-color: black;
+ width:150px;
+ height:3px;
+ position: absolute;
+ bottom:230px;
+ left:220px;
+
+ 
+}
+
+.error-modal button{
+    outline: none;
+    font-size: 36px;
+    padding:30px 60px;
+    border-radius: 56px;
+    border:2px solid black;
+
+}
+
+@media (max-width: 1400px) { 
+
+  .register-container {
+    background-image: url("../../assets/Register\ background.jpg");
+    background-size: cover; 
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .title-message{
+   font-size:36px;
+   color:white;
+   position: relative;
+   top:-45px;
+   
+  }
+  .title-message:after{
+  content: "";
+  width:180px;
+  height:10px;
+  background-color: aliceblue;
+  position: absolute;
+  bottom:-15px;
+  left:85px;
+  border-radius: 15px;
+  
+  }
+  .register-form{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 20px;
+    column-gap: 20px;
+    position: relative;
+    bottom:60px;
+  
+  }
+  
+  .register-input{
+      width:440px;
+      height:60px;
+      text-align: center;
+      border-radius: 42px;
+  }
+  input[type="text"] {
+    font-size: 30px;
+     outline: none;
+  }
+  
+  .register-button{
+      position: absolute;
+      top:420px;
+      left:360px;
+      outline: none;
+      font-size: 36px;
+      padding:15px 30px;
+      border-radius: 56px;
+  }
+  
+  .error-modal{
+    background-color: aliceblue;
+    width:600px;
+    height:400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 46px;
+    position: absolute;
+    bottom:300px;
+    border-radius: 100px;
+    border: solid 4px black;
+    
+  }
+  .error-modal{
+   color: black;
+  }
+  .error-modal span:after{
+   content:'';
+   background-color: black;
+   width:150px;
+   height:3px;
+   position: absolute;
+   bottom:230px;
+   left:220px;
+  
+   
+  }
+  
+  .error-modal button{
+      outline: none;
+      font-size: 36px;
+      padding:30px 60px;
+      border-radius: 56px;
+      border:2px solid black;
+  
+  }
+  
+
+
+
+
+}
+
