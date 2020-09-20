@@ -136,7 +136,6 @@ const Home = ({ match, history }) => {
       <div className="header">
         <img
           src={logoHelpper}
-          style={{ width: "30px", cursor: "pointer" }}
           onClick={(e) => history.push("/")}
         />
         <span
