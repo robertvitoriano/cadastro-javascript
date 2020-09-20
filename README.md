@@ -7,7 +7,10 @@ Um cadastro básico feito em javascript
 
  - Javascript
 
+
+
  ### Interfaces
+
 
  ### Cadastro
 
@@ -21,12 +24,14 @@ Um cadastro básico feito em javascript
  ### sem informações restantes
 
 
- 
+
 
 ### Aplicação em execução
 
 
+ ### Mobile
 
+ 
 
 
 
