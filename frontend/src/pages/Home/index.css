@@ -128,6 +128,7 @@ label::after {
   border:solid white 6px;
 }
 
+
 @media (max-width: 1400px) { 
   .header span{
     font-size: 26px;

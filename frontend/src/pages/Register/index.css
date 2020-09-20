@@ -1,198 +1,143 @@
 .register-container {
   background-image: url("../../assets/Register\ background.jpg");
-  background-size: cover; 
+  background-size: cover;
   display: flex;
   justify-content: space-evenly;
 }
 
-.title-message{
- font-size:66px;
- color:white;
- position: relative;
- top:-45px;
- 
+.title-message {
+  font-size: 66px;
+  color: white;
+  position: relative;
+  top: -45px;
 }
-.title-message:after{
-content: "";
-width:180px;
-height:10px;
-background-color: aliceblue;
-position: absolute;
-bottom:-15px;
-right:250px;
-border-radius: 15px;
-
+.title-message:after {
+  content: "";
+  width: 180px;
+  height: 10px;
+  background-color: aliceblue;
+  position: absolute;
+  bottom: -15px;
+  right: 250px;
+  border-radius: 15px;
 }
-.register-form{
+.register-form {
   display: grid;
   grid-template-columns: auto auto;
   row-gap: 20px;
   column-gap: 20px;
   position: relative;
-  bottom:90px;
-
+  bottom: 90px;
 }
 
-.register-input{
-    width:540px;
-    height:90px;
-    text-align: center;
-    border-radius: 42px;
+.register-input {
+  width: 540px;
+  height: 90px;
+  text-align: center;
+  border-radius: 42px;
 }
 input[type="text"] {
   font-size: 30px;
-   outline: none;
+  outline: none;
 }
 
-.register-button{
-    position: absolute;
-    top:560px;
-    left:420px;
-    outline: none;
-    font-size: 36px;
-    padding:30px 60px;
-    border-radius: 56px;
+.register-button {
+  position: absolute;
+  top: 560px;
+  left: 420px;
+  outline: none;
+  font-size: 36px;
+  padding: 30px 60px;
+  border-radius: 56px;
 }
 
-.error-modal{
+.error-modal {
   background-color: aliceblue;
-  width:600px;
-  height:400px;
+  width: 600px;
+  height: 400px;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-evenly;
   font-size: 46px;
   position: absolute;
-  bottom:300px;
+  bottom: 300px;
   border-radius: 100px;
   border: solid 4px black;
-  
 }
-.error-modal{
- color: black;
+.error-modal {
+  color: black;
 }
-.error-modal span:after{
- content:'';
- background-color: black;
- width:150px;
- height:3px;
- position: absolute;
- bottom:230px;
- left:220px;
-
- 
+.error-modal span:after {
+  content: "";
+  background-color: black;
+  width: 150px;
+  height: 3px;
+  position: absolute;
+  bottom: 230px;
+  left: 220px;
 }
 
-.error-modal button{
-    outline: none;
-    font-size: 36px;
-    padding:30px 60px;
-    border-radius: 56px;
-    border:2px solid black;
+.error-modal button {
+  outline: none;
+  font-size: 36px;
+  padding: 30px 60px;
+  border-radius: 56px;
+  border: 2px solid black;
+  position: relative;
+  z-index: 15;
+}
+.translucent{
+  width:100vw;
+  height:100vh;
+  background-color: white;
+  position: absolute;
+  opacity: 35%;
+  z-index: 10;
 
 }
 
-@media (max-width: 1400px) { 
-
+@media (max-width: 1400px) {
   .register-container {
     background-image: url("../../assets/Register\ background.jpg");
-    background-size: cover; 
+    background-size: cover;
     display: flex;
     justify-content: space-evenly;
   }
-  
-  .title-message{
-   font-size:36px;
-   color:white;
-   position: relative;
-   top:-45px;
-   
-  }
-  .title-message:after{
-  content: "";
-  width:180px;
-  height:10px;
-  background-color: aliceblue;
-  position: absolute;
-  bottom:-15px;
-  left:85px;
-  border-radius: 15px;
-  
-  }
-  .register-form{
-    display: grid;
-    grid-template-columns: auto auto;
-    row-gap: 20px;
-    column-gap: 20px;
+
+  .title-message {
+    font-size: 36px;
     position: relative;
-    bottom:60px;
-  
+    top: -45px;
   }
-  
-  .register-input{
-      width:440px;
-      height:60px;
-      text-align: center;
-      border-radius: 42px;
+  .title-message:after {
+    bottom: -15px;
+    left: 85px;
   }
-  input[type="text"] {
-    font-size: 30px;
-     outline: none;
+  .register-form {
+    bottom: 60px;
   }
-  
-  .register-button{
-      position: absolute;
-      top:420px;
-      left:360px;
-      outline: none;
-      font-size: 36px;
-      padding:15px 30px;
-      border-radius: 56px;
-  }
-  
-  .error-modal{
-    background-color: aliceblue;
-    width:600px;
-    height:400px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-evenly;
-    font-size: 46px;
-    position: absolute;
-    bottom:300px;
-    border-radius: 100px;
-    border: solid 4px black;
-    
-  }
-  .error-modal{
-   color: black;
-  }
-  .error-modal span:after{
-   content:'';
-   background-color: black;
-   width:150px;
-   height:3px;
-   position: absolute;
-   bottom:230px;
-   left:220px;
-  
-   
-  }
-  
-  .error-modal button{
-      outline: none;
-      font-size: 36px;
-      padding:30px 60px;
-      border-radius: 56px;
-      border:2px solid black;
-  
-  }
-  
 
+  .register-input {
+    width: 440px;
+    height: 60px;
+  }
 
+  .register-button {
+    top: 420px;
+    left: 360px;
+    padding: 15px 30px;
+    border-radius: 56px;
+  }
 
+  .error-modal {
+    bottom: 100px;
+  }
 
+  .error-modal button {
+    outline: none;
+    font-size: 36px;
+    padding: 30px 60px;
+    border-radius: 56px;
+  }
 }
-

@@ -169,6 +169,7 @@ const Register = ({ match, history }) => {
         <button onClick={e=>setErrorMessage('')}>Fechar</button>
       </div>
       ):''}
+           {errorMessage ?( <div className="translucent"></div>):''}
     </div>
   );
 };

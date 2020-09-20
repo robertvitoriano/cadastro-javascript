@@ -193,6 +193,7 @@ const Home = ({ match, history }) => {
           </h1>
         </div>
       )}
+
     </div>
   );
 };
