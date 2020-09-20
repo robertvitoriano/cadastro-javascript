@@ -9,6 +9,14 @@
   align-items: center;
   
 }
+
+.header span{
+  font-size: 26px;
+  color: white;
+  font-weight: bolder;
+  margin-top: 20px;
+
+}
 .presentation{
     color: aliceblue;
     font-size: 36px;
@@ -118,4 +126,39 @@ label::after {
   padding:30px 80px 30px 80px;
   border-radius: 60px;
   border:solid white 6px;
+}
+
+@media (max-width: 1400px) { 
+  .header span{
+    font-size: 26px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 5px;
+
+
+  }
+
+  .presentation{
+    font-size: 26px;
+}
+
+  .home-field {
+    background-color: aliceblue;
+    width: 350px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    border-radius: 50px;
+  }
+  
+  
+
+
+  
+
+  
+
 }

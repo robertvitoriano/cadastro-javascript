@@ -139,12 +139,11 @@ const Home = ({ match, history }) => {
           style={{ width: "30px", cursor: "pointer" }}
           onClick={(e) => history.push("/")}
         />
-        <h2
-          style={{ fontSize: "36px", color: "white", cursor: "pointer" }}
+        <span
           onClick={(e) => history.push("/")}
         >
           Teste Helpper
-        </h2>
+        </span>
       </div>
       {userInfoArray.length > 0 ? (
         <div className="home-content">
