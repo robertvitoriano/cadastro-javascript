@@ -64,10 +64,10 @@ input[type="text"] {
   bottom: 300px;
   border-radius: 100px;
   border: solid 4px black;
-}
-.error-modal {
+  z-index: 20;
   color: black;
 }
+
 .error-modal span:after {
   content: "";
   background-color: black;
@@ -85,7 +85,6 @@ input[type="text"] {
   border-radius: 56px;
   border: 2px solid black;
   position: relative;
-  z-index: 15;
 }
 .translucent{
   width:100vw;
