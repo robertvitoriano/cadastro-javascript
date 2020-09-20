@@ -140,3 +140,35 @@ input[type="text"] {
     border-radius: 56px;
   }
 }
+
+@media (max-width: 900px) {
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+  }
+
+  .register-input {
+    width: 320px;
+    height: 40px;
+  }
+
+  .register-button {
+
+    left: 105px;
+    border-radius: 56px;
+    font-size: 30px;
+    width:140px;
+    padding: 0;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 165px;
+  }
+  input[type="text"] {
+    font-size: 20px;
+    outline: none;
+  }
+}
