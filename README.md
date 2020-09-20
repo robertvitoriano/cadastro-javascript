@@ -13,15 +13,18 @@ Um cadastro básico feito em javascript
 
 
  ### Cadastro
-
+<img src="read-me-assets/register.jpg"/>
 
  ### Erro
+<img src="read-me-assets/register-error.jpg"/>
 
 
  ### Listagem de informações
+<img src="read-me-assets/home.jpg"/>
 
 
  ### sem informações restantes
+<img src="read-me-assets/home-end.jpg"/>
 
 
 
