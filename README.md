@@ -69,7 +69,8 @@ Um cadastro básico feito em javascript
 
 # Projeto em execução
 
-![Alt text](read-me-assets\execucao.gif) / ![](read-me-assets\execucao.gif)
+<img src="read-me-assets/execucao.gif" /> 
+
 
 # Como Executar esse projeto 
 
