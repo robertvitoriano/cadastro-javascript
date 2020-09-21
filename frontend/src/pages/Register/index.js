@@ -171,5 +171,4 @@ const Register = ({ match, history }) => {
     </div>
   );
 };
-
 export default Register;
