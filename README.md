@@ -71,18 +71,18 @@ Feito isso, a aplicação poderá ser visualizada no browser com o endereço :
  ### Mobile
 
   ### Cadastro
-<img src="read-me-assets/register.jpg"/>
+<img src="read-me-assets/register-mobile.jpg"/>
 
  ### Erro
-<img src="read-me-assets/register-error.jpg"/>
+<img src="read-me-assets/register-mobile-error.jpg"/>
 
 
  ### Listagem de informações
-<img src="read-me-assets/home.jpg"/>
+<img src="read-me-assets/home-mobile.jpg"/>
 
 
  ### sem informações restantes
-<img src="read-me-assets/home-end.jpg"/>
+<img src="read-me-assets/home-mobile-end.jpg"/>
 
 
 Fontes:
