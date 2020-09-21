@@ -3,8 +3,6 @@ import { mask, unMask } from "remask";
 import "./index.css";
 import api from "./../../service/api";
 
-//CNPJ 04.747.123/0001-41
-//CPF 414.753.538-04
 const Register = ({ match, history }) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
