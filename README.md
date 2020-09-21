@@ -34,7 +34,7 @@ Um cadastro básico feito em javascript
 
 
 # Como Executar esse projeto 
-Para executar esse projeto você deve ter instalados os seguintes programas:
+Para executar esse projeto você deve ter instalados em sua máquina os seguintes programas:
 
  - Node.Js 12 LTS
  - MongoDB
