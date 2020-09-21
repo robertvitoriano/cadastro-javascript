@@ -34,8 +34,13 @@ Um cadastro básico feito em javascript
 
 
 # Como Executar esse projeto 
+Para executar esse projeto você deve ter instalados os seguintes programas:
 
-Para executar esse projeto, primeiramente você deve executar o comando #`npm install` com o terminal posicionado na pasta referente ao backend e depois no frontend.
+ - Node.Js 12 LTS
+ - MongoDB
+
+
+Primeiramente você deve executar o comando #`npm install` com o terminal posicionado na pasta referente ao backend e depois no frontend.
 
 Após isso, certifique-se que o mongodb esteja corretamente instalado na maquina e que o comando mongod esteja adicionado à variável de ambiente 'path' ou que o mongodb
 esteja instalado como um serviço. Após essa verificação. execute
